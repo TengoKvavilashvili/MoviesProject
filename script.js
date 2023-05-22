@@ -1,3 +1,4 @@
+"use strict";
 const number0fFilms = +prompt('How many movies have you watched already?', '');
 
 const personalMovieDB = {
@@ -17,3 +18,5 @@ const a = prompt('One of the last movies you watched?', ''),
       personalMovieDB.movies[c] = d;
 
       console.log(personalMovieDB);
+
+
